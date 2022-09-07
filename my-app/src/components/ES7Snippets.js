@@ -1,5 +1,5 @@
 
-// rfce:
+// rfce: 
 // import React from 'react'
 
 // function ES7Snippets() {
