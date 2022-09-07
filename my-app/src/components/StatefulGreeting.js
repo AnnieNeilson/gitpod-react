@@ -1,6 +1,6 @@
 import React from 'react';
 
-class StatefulGreeting  extends React.Component {
+class StatefulGreeting extends React.Component {
 
     constructor(props) {
         super(props);
