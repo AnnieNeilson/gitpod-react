@@ -8,19 +8,23 @@ import EventsClass from './components/EventsClass';
 import ConditionalRenderingFunctional from './components/ConditionalRenderingFunctional';
 import ConditionalRenderingClass from './components/ConditionalRenderingClass';
 import NestingComponents from './components/NestingComponents';
-
+import MethodsAsPropsParent from './components/MethodsAsPropsParent';
+import RenderingLists from './components/RenderingLists';
 
 function App() {
   return (
     <div className="App">
-        {/* <FunctionalGreeting /> */}
+        {/* <FunctionalGreeting />
         {/* <FunctionalGreetingWithProps greeting="nice to meet you!" name="Bethany" age="27" />
         <StatefulGreeting greeting="I'm a stateful class component" name="Bethany" />
         <EventsFunctional />
         <EventsClass />
         <ConditionalRenderingClass />
-        <ConditionalRenderingFunctional connected={true} /> */}
-        <NestingComponents />
+        <ConditionalRenderingFunctional connected={true} />
+        <NestingComponents /> */}
+        {/* <MethodsAsPropsParent /> */}
+        <RenderingLists />
+
     </div>
   );
 }
