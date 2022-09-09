@@ -29,8 +29,7 @@ export class SearchBar extends Component {
         <form>
         <input type="text" placeholder='search names...' 
         onChange={ (event) => this.handleChange(event)}
-        name="search"
-        value={this.state.search}></input>
+        ></input>
         </form>
         <div style={{margin: 'auto'}}>
             {this.state.names.map(name => {

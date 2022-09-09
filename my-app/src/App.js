@@ -16,15 +16,19 @@ import LifeCyclesCWU from './components/LifeCyclesCWU';
 import ControlledForm from './components/ControlledForm';
 import UncontrolledForm from './components/UncontrolledForm';
 import SearchBar from './components/SearchBar';
+import ControlledFormHooks from './components/ControlledFormHooks';
+import UseStateWithArrays from './components/UseStateWithArrays';
+import UseStateWithObjects from './components/UseStateWithObjects';
+import HooksCounter from './components/HooksCounter';
 
 
 function App() {
   return (
     <div className="App">
-        {/* <FunctionalGreeting />
-        {/* <FunctionalGreetingWithProps greeting="nice to meet you!" name="Bethany" age="27" />
-        <StatefulGreeting greeting="I'm a stateful class component" name="Bethany" />
-        <EventsFunctional />
+        {/* <FunctionalGreeting /> */}
+        {/* <FunctionalGreetingWithProps greeting="nice to meet you!" name="Bethany" age="27" /> */}
+        {/* <StatefulGreeting greeting="I'm a stateful class component" name="Bethany" /> */}
+        {/* <EventsFunctional />
         <EventsClass />
         <ConditionalRenderingClass />
         <ConditionalRenderingFunctional connected={true} />
@@ -36,7 +40,11 @@ function App() {
         {/* <LifeCyclesCWU /> */}
         {/* <ControlledForm /> */}
         {/* <UncontrolledForm /> */}
-        <SearchBar />
+        {/* <SearchBar /> */}
+        {/* <ControlledFormHooks /> */}
+        {/* <UseStateWithArrays /> */}
+        <UseStateWithObjects />
+        <HooksCounter name="User" />
     </div>
   );
 }
